@@ -24,3 +24,19 @@ Amazon S3: Raw data storage.
 AWS Glue: Data cataloging and ETL jobs.
 Amazon Athena: SQL-based data transformation.
 Amazon Redshift: Data warehousing and analytics.
+
+
+## Prerequisites
+
+AWS Account with appropriate permissions for S3, Glue, Athena, and Redshift.
+Reddit API credentials.
+Docker Installation
+Python 3.9 or higher
+
+
+
+
+
+
+
+
