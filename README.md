@@ -36,13 +36,21 @@ Python 3.9 or higher
 
 
 python -m venv venv
+
 .\venv\Scripts\Activate.ps1
+
 pip install apache-airflow pandas numpy praw
+
 mkdir "config", "dags", "data", "etls", "logs", "pipelines", "tests", "utils"
+
 "airflow.env", "docker-compose.yml", "Dockerfile" | ForEach-Object { New-Item $_ -ItemType File }
+
 after paste the 
+
 Install the dependencies. pip install -r requirements.txt
+
 pip freeze > requirements.txt
+
 docker compose up -d --build
 
 
